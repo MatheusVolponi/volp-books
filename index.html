@@ -51,9 +51,17 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__img container__img-transparent"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__img"></a>
-            <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__img"></a>
+            <a href="#">
+                <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__img container__img-transparent">
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Compras.svg" alt="Carrinho de Compras" class="container__img">
+                <p class="container__text">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/Usuário.svg" alt="Meu perfil" class="container__img">
+                <p class="container__text">Meu perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -64,41 +72,43 @@
     <section class="carousel">
         <h2 class="carousel__title">Novos Lançamentos</h2>
         <!-- Slider main container -->
-        <div class="swiper">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro Apache Kafka e Spring Boot"></div>
-                <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro Javascript Assertivo"></div>
-                <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro Construindo APIs Rest com Nodejs"></div>
-                <div class="swiper-slide"><img src="img//Tuning.svg" alt="Livro Tuning de SQL"></div>
-                <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro Lógica de Programação com Portugol"></div>
-                <div class="swiper-slide"><img src="img/Arquitetura.svg"alt="Livro Arquitetura de software distribuído"></div>
-            </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-
-        <div class="card">
-            <div class="card__description">
-                <div class="description">
-                    <h3 class="description__title">Talvez você também se interesse por...</h3>
-                    <h2 class="description__title__book">Angular 11 e Firebase</h2>
-                    <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+        <div class="carousel__container">
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro Apache Kafka e Spring Boot"></div>
+                    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro Javascript Assertivo"></div>
+                    <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro Construindo APIs Rest com Nodejs"></div>
+                    <div class="swiper-slide"><img src="img//Tuning.svg" alt="Livro Tuning de SQL"></div>
+                    <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro Lógica de Programação com Portugol"></div>
+                    <div class="swiper-slide"><img src="img/Arquitetura.svg"alt="Livro Arquitetura de software distribuído"></div>
                 </div>
-                <img src="img/Angular.svg" class="description__image" alt="Logo do Angular">
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
 
-            <div class="card__button">
-                <ul class="button">
-                    <li class="button__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                    <li class="button__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
-                </ul>
+            <div class="card">
+                <div class="card__description">
+                    <div class="description">
+                        <h3 class="description__title">Talvez você também se interesse por...</h3>
+                        <h2 class="description__title__book">Angular 11 e Firebase</h2>
+                        <p class="description__text">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    </div>
+                    <img src="img/Angular.svg" class="description__image" alt="Logo do Angular">
+                </div>
 
-                <a href="#" class="button__anchor">Saiba mais</a>
+                <div class="card__button">
+                    <ul class="button">
+                        <li class="button__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="button__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                    </ul>
+
+                    <a href="#" class="button__anchor">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>
