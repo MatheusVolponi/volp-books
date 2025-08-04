@@ -35,3 +35,9 @@
     color: var(--blue);
     opacity: 1;
 }
+
+@media screen and (min-width: 1024px) {
+    .contact__title {
+        font-size: 24px;
+    }
+}

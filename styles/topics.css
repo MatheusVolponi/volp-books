@@ -27,3 +27,13 @@
     text-decoration: none;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px) {
+    .topics__title {
+        font-size: 24px;
+    }
+
+    .topics__list__items__link {
+        font-size: 20px;
+    }
+}
