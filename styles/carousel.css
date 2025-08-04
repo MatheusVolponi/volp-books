@@ -105,8 +105,4 @@
     }
 }
 
-@media screen and (min-width: 1728px) {
-    .carousel__container {
-        display: flex;
-    }
-}
+
